@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { Linkedin, Mail, ExternalLink } from "lucide-react"
 
 export function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = 2026
 
   const socialLinks = [
     {
