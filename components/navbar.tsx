@@ -17,8 +17,11 @@ export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [activeSection, setActiveSection] = useState("hero")
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {
+    setIsClient(true)
+    
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50)
 
@@ -68,13 +71,13 @@ export function Navbar() {
                 key={item.name}
                 href={item.href}
                 className={`relative px-4 py-2 text-sm font-medium transition-colors ${
-                  activeSection === item.href.slice(1)
+                  isClient && activeSection === item.href.slice(1)
                     ? "text-primary"
                     : "text-muted-foreground hover:text-foreground"
                 }`}
               >
                 {item.name}
-                {activeSection === item.href.slice(1) && (
+                {isClient && activeSection === item.href.slice(1) && (
                   <motion.div
                     layoutId="activeSection"
                     className="absolute inset-0 bg-primary/10 rounded-lg -z-10"
@@ -112,7 +115,7 @@ export function Navbar() {
                   href={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`block px-4 py-3 text-base font-medium rounded-lg transition-colors ${
-                    activeSection === item.href.slice(1)
+                    isClient && activeSection === item.href.slice(1)
                       ? "text-primary bg-primary/10"
                       : "text-muted-foreground hover:text-foreground hover:bg-secondary"
                   }`}
