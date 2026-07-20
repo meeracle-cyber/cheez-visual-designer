@@ -27,7 +27,7 @@ export function HeroSection() {
             className="relative mb-6 inline-block group"
           >
             {/* Glowing background gradient ring */}
-            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-accent opacity-50 blur-md group-hover:opacity-85 transition-opacity duration-300" />
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-accent opacity-75 blur-lg group-hover:opacity-100 transition-opacity duration-300 animate-pulse" />
             <div className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border border-border bg-background">
               <Image
                 src="/chee-z.jpg"

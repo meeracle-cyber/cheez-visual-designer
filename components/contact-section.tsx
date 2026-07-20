@@ -121,7 +121,7 @@ export function ContactSection() {
             <div className="mt-8">
               <div className="text-muted-foreground">
                 <div className="relative"></div>
-                Based in San Francisco, CA
+                Based in Nigeria, Africa
                 <br />
                 Available for remote collaborations worldwide
               </div>
