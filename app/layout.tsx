@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   title: 'Chee_z | Visual Designer',
   description: 'Portfolio website of Chee_z Visual Designer. View my portfolio and get in touch.',
   keywords: ['Visual Designer', 'Brand Designer', 'UI/UX', 'Portfolio', 'Creative Strategist'],
+  icons: {
+    icon: '/favicon.png',
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     title: 'Chee_z | Visual Designer',
     description: 'Portfolio website of Chee_z Visual Designer. Visual Designer | Brand Designer | Creative Strategist',
