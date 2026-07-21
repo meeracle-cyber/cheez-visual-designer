@@ -22,12 +22,15 @@ export const metadata: Metadata = {
     description: 'Portfolio website of Chee_z Visual Designer. Visual Designer | Brand Designer | Creative Strategist',
     type: 'website',
     url: 'https://chee-z.vercel.app',
-    image: {
-      url: 'https://chee-z.vercel.app/chee-z.jpg',
-      width: 1200,
-      height: 630,
-      alt: 'Chee_z Visual Designer',
-    },
+    images: [
+      {
+        url: 'https://chee-z.vercel.app/chee-z.jpg',
+        width: 1200,
+        height: 1200,
+        alt: 'Chee_z Visual Designer',
+        type: 'image/jpeg',
+      }
+    ],
   },
   twitter: {
     card: 'summary_large_image',
