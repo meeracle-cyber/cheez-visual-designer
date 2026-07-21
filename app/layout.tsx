@@ -19,8 +19,21 @@ export const metadata: Metadata = {
   keywords: ['Visual Designer', 'Brand Designer', 'UI/UX', 'Portfolio', 'Creative Strategist'],
   openGraph: {
     title: 'Chee_z | Visual Designer',
-    description: 'Portfolio website of Chee_z Visual Designer',
+    description: 'Portfolio website of Chee_z Visual Designer. Visual Designer | Brand Designer | Creative Strategist',
     type: 'website',
+    url: 'https://chee-z.vercel.app',
+    image: {
+      url: 'https://chee-z.vercel.app/chee-z.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Chee_z Visual Designer',
+    },
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Chee_z | Visual Designer',
+    description: 'Portfolio website of Chee_z Visual Designer. Visual Designer | Brand Designer | Creative Strategist',
+    image: 'https://chee-z.vercel.app/chee-z.jpg',
   },
   icons: {
     icon: [
