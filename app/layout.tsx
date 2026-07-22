@@ -17,17 +17,6 @@ export const metadata: Metadata = {
   title: 'Chee_z | Visual Designer',
   description: 'Portfolio website of Chee_z Visual Designer. View my portfolio and get in touch.',
   keywords: ['Visual Designer', 'Brand Designer', 'UI/UX', 'Portfolio', 'Creative Strategist'],
-  icons: {
-    icon: [
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
-    ],
-    apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
-  },
-  manifest: '/manifest.json',
   openGraph: {
     title: 'Chee_z | Visual Designer',
     description: 'Portfolio website of Chee_z Visual Designer. Visual Designer | Brand Designer | Creative Strategist',
